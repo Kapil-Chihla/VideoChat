@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Room } from "./Room";
 import "./Landing.css"; // Importing the CSS file
 
-export const Landing = () => {
+export const Home = () => {
     const [name, setName] = useState("");
     const [localAudioTrack, setLocalAudioTrack] = useState<MediaStreamTrack | null>(null);
     const [localVideoTrack, setlocalVideoTrack] = useState<MediaStreamTrack | null>(null);
