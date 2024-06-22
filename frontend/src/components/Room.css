@@ -1,0 +1,95 @@
+/* Room.css */
+.room-container {
+    display: flex;
+    height: 100vh;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    flex: 2;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 2px solid #444;
+    border-radius: 10px;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+  
+  .messages {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #3a3a3a;
+  }
+  
+  .message:last-child {
+    border-bottom: none;
+  }
+  
+  .message strong {
+    color: #227795;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #227795;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  
+  button:hover {
+    background-color: #227795;
+  }
+  
+  .chat-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
